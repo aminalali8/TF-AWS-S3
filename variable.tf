@@ -1,3 +1,10 @@
+variable "environment_unique" {
+    description = "Bunnyshell Environment Identifier"
+    type = string
+    default = null
+}
+
+
 variable "region" {
   type    = string
   default = "us-east-1"
